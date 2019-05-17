@@ -1,0 +1,58 @@
+/* write your styles here */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+marquee {
+    background-color: #ed484c;
+    color: white;
+    padding: 10px;
+   
+
+}
+#highlight {
+    padding: 4px 11px;
+}
+ img{
+  height: 35px;
+  margin: 14px 20px;
+}
+header {
+    background-color: #4c4c4c;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+ul li {
+    list-style-type: none;
+    margin: 0px 5px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+#main {
+    background-image: url(images/floral.png);
+    display: flex;
+    flex-direction: column; 
+    background-color:#f18d97;
+    align-items: center; 
+    text-align: center;
+}
+#main p {
+    border-top: 1px solid black;
+    border-bottom:1px solid black ;
+    padding: 26px ;
+    text-align: center; 
+}
+
+#main button {
+    background-color: #170d0e;
+    padding: 16px 60px;
+    border: none;
+    color: pink;
+    margin-bottom: 22px;
+}
+    
