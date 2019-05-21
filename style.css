@@ -4,55 +4,162 @@ body {
     padding: 0;
     margin: 0;
 }
+* {
+    font-family: 'Montserrat', sans-serif;
+}
 marquee {
     background-color: #ed484c;
     color: white;
     padding: 10px;
-   
-
+    font-weight: bold;
 }
 #highlight {
-    padding: 4px 11px;
+    padding: 3px 10px;
+    background-color: #fdf733;
+    font-weight: bold;
 }
  img{
-  height: 35px;
-  margin: 14px 20px;
+  height: 40px;
+  margin: 14px 24px;
 }
 header {
     background-color: #4c4c4c;
     display: flex;
     justify-content: space-between;
-    color: white;
-    
 }
 ul li {
     list-style-type: none;
-    margin: 0px 5px;
+    margin: 0px 14px;
 }
 ul {
     display: flex;
     flex-direction: row;
 }
-#main {
+a {
+    color:#d3cbcb;
+    text-decoration: none;
+    font-weight: bold;
+}
+#circle {
     background-image: url(images/floral.png);
     display: flex;
     flex-direction: column; 
     background-color:#f18d97;
     align-items: center; 
-    text-align: center;
 }
-#main p {
+#circle h1 {
+    margin:42px 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+}
+#circle p {
     border-top: 1px solid black;
     border-bottom:1px solid black ;
     padding: 26px ;
     text-align: center; 
+    font-size: 22px;
 }
 
-#main button {
-    background-color: #170d0e;
+#circle button {
+    background-color: #160d0e;
     padding: 16px 60px;
     border: none;
-    color: pink;
+    color: #f18d97;
     margin-bottom: 22px;
+    font-size: 28px;
 }
+#services {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/floral.png);
+    background-color: #efece7;
+}
+#services h2 {
+    font-family: 'Sofia', cursive;
+    text-align: center;
+    font-size: 28px;
+    padding: 12px 0px;
+}
+.combine figure>i {
+    font-size: 120px;
+    justify-content: center;
+    display: flex;
+}
+.combine {
+    display: flex;
+    flex-direction: row;
+
+}
+.combine figcaption>h3 {
+    text-align: center;
+}
+.combine figcaption>p {
+    text-align: center;
+}
+#portfolio {
+    background-image: url(images/floral.png);
+    background-color: #ddceb4;
+    display: grid;
     
+}
+#portfolio h2{
+    font-family: 'Sofia', cursive;
+    text-align: center;
+    font-size: 28px;
+    padding: 12px 0px;
+}
+#portfolio p {
+    border-top: 1px solid black;
+    border-bottom:1px solid black ;
+    padding: 26px ;
+    text-align: center; 
+    font-size: 22px;
+}
+
+#cohort {
+    width: 1000px;
+    height: 600px;
+    margin: 10px 50px 10px 220px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap: 2px;
+    grid-column-gap: 8px;
+}
+#cohort div>img {
+    height:230px;
+    width:270px;
+    border-radius: 10px;
+}
+#social-media {
+    background-image:url(images/floral.png);
+    background-color:#afc7c6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#social-media h2 {
+    margin-top: 0px;
+    font-family: 'Sofia', cursive;
+    text-align: center;
+    font-size: 28px;
+    padding: 12px 0px;
+}
+#social-media i{
+    border: 1px solid black;
+    border-radius:100%;
+    padding: 16px 18px;
+    font-size: 50px;
+    margin: 28px 12px;
+}
+
+footer {
+    background-color: #212121;
+}
+footer h3 {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 50px 0px; 
+}
