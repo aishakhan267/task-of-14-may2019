@@ -26,10 +26,12 @@ header {
     background-color: #4c4c4c;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 ul li {
     list-style-type: none;
     margin: 0px 14px;
+
 }
 ul {
     display: flex;
@@ -58,8 +60,9 @@ a {
     padding: 26px ;
     text-align: center; 
     font-size: 22px;
+    margin: 22px 300px;
+   
 }
-
 #circle button {
     background-color: #160d0e;
     padding: 16px 60px;
@@ -123,9 +126,10 @@ a {
 #portfolio p {
     border-top: 1px solid black;
     border-bottom:1px solid black ;
-    padding: 26px 0;
+    padding: 26px ;
     text-align: center; 
     font-size: 22px;
+    margin: 22px 300px;
 }
 #cohort figcaption {
     height:180px;
