@@ -81,13 +81,17 @@ a {
     font-family: 'Sofia', cursive;
     text-align: center;
     font-size: 28px;
-    padding: 12px 0px;
+    padding: 6px 0px;
+    margin: 10px 0px;
 }
 .combine figure>i {
     font-size: 120px;
     justify-content: center;
     display: flex;
     transition: color 2s;
+}
+.combine figure {
+    margin: 0;
 }
 .combine figure:hover>i{
     color: #ef3b4d;
@@ -113,15 +117,17 @@ a {
     width: 220px;
     border-radius: 10px;
     text-align: center;
+    margin:0;
 }
 #portfolio figure {
     position: relative;
+    margin:0;
 }
 #portfolio h2{
     font-family: 'Sofia', cursive;
     text-align: center;
     font-size: 28px;
-    padding: 12px 0px;
+    padding: 6px 0px;
 }
 #portfolio p {
     border-top: 1px solid black;
@@ -139,7 +145,8 @@ a {
     background-color: #101315;
     text-align: center;
     top: 0px;
-    right: 0px;
+    left:0px;
+    margin: 0px;
 }
 
 #cohort {
@@ -147,8 +154,8 @@ a {
     display: grid;
     grid-template-columns:repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
-    grid-row-gap: 2px;
-    grid-column-gap: 2px;
+    grid-row-gap:16px;
+    grid-column-gap: 22px;
 }
 #cohort figcaption {
     color:white;
@@ -174,14 +181,14 @@ a {
     font-family: 'Sofia', cursive;
     text-align: center;
     font-size: 28px;
-    padding: 12px 0px;
+    padding: 6px 0px;
 }
 #social-media i{
     border: 1px solid black;
     border-radius:100%;
     padding: 16px 18px;
     font-size: 50px;
-    margin: 28px 12px;
+    margin: 20px 12px;
     transition: color 1s, background-color 1s;
 }
 #social-media i:hover {
